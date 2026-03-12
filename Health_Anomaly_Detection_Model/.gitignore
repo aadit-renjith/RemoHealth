@@ -1,0 +1,25 @@
+# Standard Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Datasets
+Datasets/
+
+# Models
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db

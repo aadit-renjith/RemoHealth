@@ -1,0 +1,20 @@
+Feature Order for Model Input
+========================================
+0: Heart Rate (bpm)
+1: Body Temperature (°C)
+2: Blood Oxygen Level (SpO2 %)
+3: Systolic_BP
+4: Diastolic_BP
+5: MAP
+
+Total features: 6
+Label mapping: Normal=0, Abnormal=1
+
+Best Hyperparameters:
+  subsample: 1.0
+  n_estimators: 300
+  min_child_weight: 5
+  max_depth: 9
+  learning_rate: 0.05
+  gamma: 0.5
+  colsample_bytree: 0.9

@@ -1,0 +1,32 @@
+# Standard Python ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Dataset (Ignore the raw data folder to avoid uploading massive files)
+data/
+!data/.gitkeep
+
+# Trained Models and Artifacts (Ignore generated files)
+models/
+*.joblib
+*.pkl
+*.h5
+*.onnx
+*.tflite
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
